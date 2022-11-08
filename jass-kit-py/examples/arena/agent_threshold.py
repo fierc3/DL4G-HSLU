@@ -26,7 +26,6 @@ from sklearn.neighbors import KNeighborsRegressor
 
 from sklearn.model_selection import KFold
 from pathlib import Path
-from sklearn import svm
 
 import os
 
