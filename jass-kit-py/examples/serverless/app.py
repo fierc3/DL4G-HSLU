@@ -23,7 +23,7 @@ def create_app():
     app = PlayerServiceApp('player_service')
 
     # you could use a configuration file to load additional variables
-    app.config.from_pyfile('my_player_service.cfg', silent=False)
+    # app.config.from_pyfile('my_player_service.cfg', silent=False)
 
     # add some players
     app.add_player('random', AgentRandomSchieber())
